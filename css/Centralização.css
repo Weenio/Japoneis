@@ -1,0 +1,32 @@
+
+/*O ".center1" possuí uma borda de imagem em CSS. O ".center2" não a possuí, por isso é ótimo para textos*/
+.center1 {
+    text-align: center;
+    margin: auto;
+    width: 450px;
+    border: 5px solid #ff0000;
+    padding: 2px 2px 2px 2px;
+}
+
+.center2 {
+    text-align: center;
+}
+
+.TitleCenterRed {
+    text-align: center;
+    color: #ff0000;
+    text-shadow: 1px 1px #6d3500;
+    font-weight: bold;
+}
+
+.TitleCenterBlack {
+    text-align: center;
+    color:#000000;
+    font:bold
+}
+.borderW {
+    border: 2px solid #ffff;
+}
+.borderB {
+    border: 2px solid #000000;
+}

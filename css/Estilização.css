@@ -1,0 +1,25 @@
+
+.coluna {
+    columns: 3;
+    column-rule-color: #ff0000;
+    column-rule-width: 5px;
+    column-rule-style: double;
+}
+    a{
+        color:black;
+    }
+    a:visited{
+        color: #6d3500;
+    }
+    a:hover{
+        color: red;
+    }
+.tLeitura {
+    background-color: black;
+    color:white;
+}
+
+.tLeitura2 {
+    background-color: #3a8ada;
+    color: #eac1c4
+}
