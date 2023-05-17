@@ -12,3 +12,31 @@
   border: 5px solid #33ff00;
   padding: 2px 2px 2px 2px;
 }
+.albeCenter{
+  text-align: center;
+  margin: auto;
+  width: 450px;
+  border: 5px solid #cccf00;
+  padding: 2px 2px 2px 2px;
+}
+.monaCenter{
+  text-align: center;
+  margin: auto;
+  width: 450px;
+  border: 5px solid #5900e7;
+  padding: 2px 2px 2px 2px;
+}
+.ronaldCenter{
+  border: 5px solid #f00;
+  animation:KM 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  text-align: center;
+  margin: auto;
+  width: 250px;
+  padding: 2px 2px 2px 2px;
+}
+@keyframes KM {
+  from {border: 5px solid #f00}
+  to {border: 5px solid #fbff00}
+}
